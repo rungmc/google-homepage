@@ -2,7 +2,7 @@
 
 ## Goal
 
-To deconstruct the Google homepage and rebuild it.
+To deconstruct the [Google](http://www.google.com) homepage and rebuild it.
 
 ## Simple Page Element Observations
 
@@ -15,7 +15,7 @@ To deconstruct the Google homepage and rebuild it.
 - Hamburger menu drops down to a fixed box with Google Apps (scrolls).
 - Footer stacks vertically when squeezed. *Carbon neutral* goes to top, left elements next, and then right elements.
 
-## TODO
+## To-Do
 
 Header:
 

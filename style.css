@@ -1,0 +1,26 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    background: #fff;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+footer a {
+    color: #70757a;
+}
