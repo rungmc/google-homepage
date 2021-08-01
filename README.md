@@ -26,8 +26,8 @@ Header:
 
 Main:
 
-- [ ] Google Logo
-- [ ] Search Bar
+- [x] Google Logo
+- [x] Search Bar
 - [ ] Google Search Button, I'm Feeling Lucky Button
 - [ ] I'm Feeling Lucky slot machine effect
 - [ ] Flex formatting
@@ -35,7 +35,7 @@ Main:
 Footer:
 
 - [x] Advertising, Business, How Search works links
-- [ ] Carbon neutral notice
+- [x] Carbon neutral notice
 - [x] Privacy, Terms, Settings links
 - [ ] Flex formatting
 
