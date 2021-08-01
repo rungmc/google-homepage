@@ -25,10 +25,60 @@ a:hover {
 header {
     display: flex;
     padding: 6px;
+    align-items: center;
+}
+
+header a {
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
+#lnav {
+    margin-left: 15px;
 }
 
 #rnav {
-    justify-self: end;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 4px 0px 32px;
+}
+
+#hamburger {
+    display: flex;
+    align-items: center;
+    height: 34px;
+    border-radius: 50%;
+    padding: 0 5px;
+    margin: 0;
+}
+
+#hamburger:hover {
+    background-color: rgba(60,64,67,0.08);
+}
+
+#hamburger svg{
+    fill: #5f6368;
+    height: 24px;
+}
+
+#signin {
+    color: #fff;
+    background-color: #1a73e8;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 9px 23px;
+}
+
+#signin:hover{
+    background-color: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+#signin:active{
+    background-color: #63a0ef;
 }
 
 main {
@@ -39,7 +89,7 @@ main {
     padding: 25px;
 }
 
-svg {
+main svg {
     fill: #9aa0a6;
     height: 20px;
 }
@@ -114,13 +164,4 @@ footer a {
 footer img {
     height: 14px;
     margin-right: 6px;
-}
-
-#lfoot {
-}
-
-#mfoot {
-}
-
-#rfoot {
 }
