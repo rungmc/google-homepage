@@ -1,8 +1,12 @@
 body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
     background: #fff;
+    min-width: 400px;
 }
 
 a {
@@ -14,13 +18,122 @@ a:hover {
     text-decoration: underline;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+header a {
+    padding: 5px;
+    margin: 0px 5px;
+}
+
+#topleft {
+    margin-left: 15px;
+}
+
+#topright {
+    display: flex;
+    justify-content: flex-end;
+    height: 48px;
+    padding: 0px 4px 0px 32px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    padding: 0px 20px;
+}
+
+#search {
+    display: flex;
+    padding: 20px;
+    max-height: 160px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: auto;
+    max-width: 584px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+#search img {
+    align-self: center;
+    padding-right: 10px;
+}
+
+#search:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(23,225,229,0);
+}
+
+input {
+    display: flex;
+    align-self: center;
+    flex: 100%;
+    border: none;
+    background-color: transparent;
+    word-wrap: break-word;
+    height: 34px;
+    font-size: 16px;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
 footer{
+    background: #f2f2f2;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0px 20px 0px 20px;
+    justify-content: space-evenly;
+    padding: 0px 20px;
 }
 
 footer a {
     color: #70757a;
+    padding: 15px;
+}
+
+#botleft {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+
+#botmiddle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 2;
+}
+
+#botright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+}
+
+#leaf {
+    height: 14px;
+    margin-right: 6px;
 }

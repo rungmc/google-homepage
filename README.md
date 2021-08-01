@@ -19,9 +19,10 @@ To deconstruct the [Google](http://www.google.com) homepage and rebuild it.
 
 Header:
 
-- [ ] About, Store
+- [x] About, Store
 - [ ] Gmail, Images, Hamburger Button, Account Button
 - [ ] Hamburger Menu
+- [ ] Flex formatting
 
 Main:
 
@@ -29,12 +30,14 @@ Main:
 - [ ] Search Bar
 - [ ] Google Search Button, I'm Feeling Lucky Button
 - [ ] I'm Feeling Lucky slot machine effect
+- [ ] Flex formatting
 
 Footer:
 
-- [ ] Advertising, Business, How Search works links
+- [x] Advertising, Business, How Search works links
 - [ ] Carbon neutral notice
-- [ ] Privacy, Terms, Settings links
+- [x] Privacy, Terms, Settings links
+- [ ] Flex formatting
 
 ## Skills Used
 
